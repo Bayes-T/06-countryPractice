@@ -1,0 +1,5 @@
+.bg {
+    background-image: url(/assets/worldwide.avif);
+    height: 200px;
+    background-size: cover;
+}

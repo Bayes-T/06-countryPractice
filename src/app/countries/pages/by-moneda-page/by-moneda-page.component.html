@@ -1,0 +1,8 @@
+<div>
+    <app-search-box
+    [busqueda] = "termino"
+    (onSearch)="searchByName('currency',$event)"
+    ></app-search-box>
+    </div>
+    
+    <app-table [countries]="countries"></app-table>
